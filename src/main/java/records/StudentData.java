@@ -25,7 +25,7 @@ public class StudentData {
 	}
 	
 	private String generateUsername(){
-		return this.name.concat(age.toString()).trim();
+		return this.name.concat(age.toString()).replaceAll("\\s+","");
 	}
 
 
