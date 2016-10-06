@@ -3,7 +3,9 @@ package records;
 import java.util.ArrayList;
 
 public class ModuleData {
-	
+
+
+
 	private String moduleName;
 	private String moduleCode;
 	private String fullModuleName;
@@ -31,4 +33,27 @@ public class ModuleData {
 		return students;
 	}
 
+	public String getModuleName() {
+		return moduleName;
+	}
+
+	public void setModuleName(String moduleName) {
+		this.moduleName = moduleName;
+	}
+
+	public String getModuleCode() {
+		return moduleCode;
+	}
+
+	public void setModuleCode(String moduleCode) {
+		this.moduleCode = moduleCode;
+	}
+
+	public String getFullModuleName() {
+		return fullModuleName;
+	}
+
+	public void setFullModuleName(String fullModuleName) {
+		this.fullModuleName = fullModuleName;
+	}
 }
