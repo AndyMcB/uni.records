@@ -19,7 +19,7 @@ public class StudentTest extends TestCase{
 	public StudentTest( )
     {
        s1 = new StudentData(testName, testAge, testDOB);
-       answer = testName.concat(testAge.toString());
+       answer = testName.concat(testAge.toString()).replaceAll("\\s", "");
     }
 
 	@Test
